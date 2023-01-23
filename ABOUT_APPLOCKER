@@ -1,0 +1,35 @@
+Applocker:-
+AppLocker advances the app control features and functionality of Software Restriction Policies.
+AppLocker contains new capabilities and extensions that allow you to create rules to allow or deny apps from running based on
+unique identities of files and to specify which users or groups can run those apps.
+
+What we can do using Applocker?
+
+1. Control following types of apps: executable files (.exe and .com), scripts (.js, .ps1, .vbs, .cmd, and .bat),
+Windows Installer files (.mst, .msi and .msp), and DLL files (.dll and .ocx), and packaged apps and packaged app 
+installers (appx).
+
+2.Define rules based on file attributes derived from the digital signature, including the publisher, product name, file name,
+and file version. 
+
+3.Assign a rule to a security group or an individual user.
+
+4.Create exceptions to rules. 
+
+Some Features:
+A. Rule Scope is for specific User or group
+
+B. Rule COnditions provided: File hash, path, and publisher
+
+C.
+
+
+
+
+
+
+
+
+
+
+
