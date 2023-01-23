@@ -21,7 +21,11 @@ A. Rule Scope is for specific User or group
 
 B. Rule COnditions provided: File hash, path, and publisher
 
-C.
+C.Types of Rules: Allow and Deny
+
+D.Default Rule Action: Implicit Deny
+
+
 
 
 
