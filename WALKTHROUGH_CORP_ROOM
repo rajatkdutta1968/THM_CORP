@@ -185,3 +185,13 @@ NOTE ON Unattended Setup:
 Unattended Setup is the method by which original equipment manufacturers (OEMs), corporations, and other users install Windows NT in unattended mode
 It is also where users passwords are stored in base64. Navigate to C:\Windows\Panther\Unattend\Unattended.xml.
 
+Content of Unattended.xml
+PS C:\Users\dark> type C:\Windows\Panther\Unattend\Unattended.xml
+<AutoLogon>
+    <Password>
+        <Value>dHFqSnBFWDlRdjh5YktJM3lIY2M9TCE1ZSghd1c7JFQ=</Value>
+        <PlainText>false</PlainText>
+    </Password>
+    <Enabled>true</Enabled>
+    <Username>Administrator</Username>
+</AutoLogon>
