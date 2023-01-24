@@ -31,5 +31,42 @@ this directory is whitelisted by default. (A curated list is attached in this re
 
 TASK - 2
 =========
+our target dc is 'corp'
+1. Open powershell
+2. setspn -T corp -Q */*
+got following output:-
+
+Checking domain DC=corp,DC=local
+CN=OMEGA,OU=Domain Controllers,DC=corp,DC=local
+        Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/omega.corp.local
+        ldap/omega.corp.local/ForestDnsZones.corp.local
+        ldap/omega.corp.local/DomainDnsZones.corp.local
+        TERMSRV/OMEGA
+        TERMSRV/omega.corp.local
+        DNS/omega.corp.local
+        GC/omega.corp.local/corp.local
+        RestrictedKrbHost/omega.corp.local
+        RestrictedKrbHost/OMEGA
+        RPC/7c4e4bec-1a37-4379-955f-a0475cd78a5d._msdcs.corp.local
+        HOST/OMEGA/CORP
+        HOST/omega.corp.local/CORP
+        HOST/OMEGA
+        HOST/omega.corp.local
+        HOST/omega.corp.local/corp.local
+        E3514235-4B06-11D1-AB04-00C04FC2DCD2/7c4e4bec-1a37-4379-955f-a0475cd78a5d/corp.local
+        ldap/OMEGA/CORP
+        ldap/7c4e4bec-1a37-4379-955f-a0475cd78a5d._msdcs.corp.local
+        ldap/omega.corp.local/CORP
+        ldap/OMEGA
+        ldap/omega.corp.local
+        ldap/omega.corp.local/corp.local
+CN=krbtgt,CN=Users,DC=corp,DC=local
+        kadmin/changepw
+CN=fela,CN=Users,DC=corp,DC=local
+        HTTP/fela
+        HOST/fela@corp.local
+        HTTP/fela@corp.local
+
+Existing SPN found!
 
 
