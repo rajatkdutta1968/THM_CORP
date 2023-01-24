@@ -113,3 +113,5 @@ got the password: rubenF124
 
 7.now using xfreerdp login into target and get the flag
 
+xfreerdp /v:TARGET_IP /u:fela /p:rubenF124
+from desktop got the flag
