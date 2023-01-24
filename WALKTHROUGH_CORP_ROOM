@@ -181,5 +181,7 @@ AbuseFunction  : Write-HijackDll -OutputFile 'C:\Users\dark\AppData\Local\Micros
 
 UnattendPath : C:\Windows\Panther\Unattend\Unattended.xml
 
-
+NOTE ON Unattended Setup:
+Unattended Setup is the method by which original equipment manufacturers (OEMs), corporations, and other users install Windows NT in unattended mode
+It is also where users passwords are stored in base64. Navigate to C:\Windows\Panther\Unattend\Unattended.xml.
 
